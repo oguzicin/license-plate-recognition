@@ -1,8 +1,8 @@
 # License Plate Recognition Web App
 
 Built with:  
-- **Frontend**: React + TypeScript  
-- **Backend**: Flask + EasyOCR  
+- **Frontend**: Python 
+- **Backend**: EasyOCR  
 - **Computer Vision**: OpenCV  
 
 ---
@@ -26,34 +26,11 @@ After detecting the plate, the app uses EasyOCR to extract alphanumeric characte
 ### > Image Preprocessing  
 The backend applies grayscale conversion, edge detection, and contour analysis to accurately locate plates before passing them to OCR. This improves accuracy even in noisy or low-light images.
 
-### > Simple UI with React  
+### > Simple UI   
 The frontend is designed to be user-friendly and responsive. It provides a step-by-step flow from uploading an image to viewing the recognized plate text.
 
 ---
 
-## Deployment
-
-### Backend (Flask)  
-1. Navigate to the backend directory:  
-   `cd backend`  
-2. Install dependencies:  
-   `pip install -r requirements.txt`  
-3. Start the Flask server:  
-   `python app.py`
-
----
-
-### Frontend (React)  
-1. Navigate to the frontend directory:  
-   `cd frontend`  
-2. Install dependencies:  
-   `npm install`  
-3. Start the development server:  
-   `npm start`
-
-Visit **http://localhost:3000** to use the application.
-
----
 
 ## Future Improvements
 
